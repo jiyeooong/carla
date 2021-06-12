@@ -1,4 +1,9 @@
 # carla-0.8.0 point cloud to depth, road segmentation code
+point_cloud_to_depth
+![Screenshot from 2021-06-13 03-11-36](https://user-images.githubusercontent.com/65943726/121785513-1b470f80-cbf5-11eb-96d6-0391ac079f29.png)
+
+road segmentation
+![Screenshot from 2021-06-13 03-13-36](https://user-images.githubusercontent.com/65943726/121785547-6103d800-cbf5-11eb-82b9-419107be71b9.png)
 
 ./carla-0.8.0/PythonClient/carla/ 경로에
 point_cloud_to_depth.py와 road_segmentation.py 파일을 두고 실행!
