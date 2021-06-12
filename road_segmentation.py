@@ -4,7 +4,7 @@ import numpy
 
 for (path, dirs, files) in os.walk("./Downloads/R2D"):
     for filename in files:
-        if "label" in str(path) and "new" not in str(path):
+        if "label" in str(path):
             print("%s/%s" % (path, filename))
             arr = cv2.imread(os.path.join(path, filename), cv2.COLOR_RGB2BGR)
             arr = arr.astype(numpy.uint8)
