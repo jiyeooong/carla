@@ -2,7 +2,7 @@ import os
 import cv2
 import numpy
 
-for (path, dirs, files) in os.walk("/home/sungheui/Downloads/R2D"):
+for (path, dirs, files) in os.walk("./Downloads/R2D"):
     for filename in files:
         if "label" in str(path) and "new" not in str(path):
             print("%s/%s" % (path, filename))
